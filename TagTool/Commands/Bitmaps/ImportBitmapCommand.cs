@@ -55,7 +55,7 @@ namespace TagTool.Commands.Bitmaps
                 return true;
             }
 
-            if (imageIndex >= Bitmap.Images.Count)
+            if (imageIndex >= Bitmap.Images.Count) // To Test: adding new resources to a bitm with more than 1 permutation
             {
                 Bitmap.Flags = Bitmap.RuntimeFlags.UseResource;
                 Bitmap.Images.Add(new Bitmap.Image());
