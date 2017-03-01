@@ -1,0 +1,3 @@
+[submodule "BlamCore"]
+	path = BlamCore
+	url = https://Camden-Smallwood@bitbucket.org/reclaimers/blamcore.git
